@@ -1,4 +1,6 @@
-import React from 'react'
+import Feed from '@/components/Feed';
+
+
 
 const Home  = () => {
   return (
@@ -13,6 +15,9 @@ const Home  = () => {
                 Iste et vero, officia incidunt inventore,
             </p>
         </h1>
+
+        {/* Feed Component Here */}
+        <Feed />
     </setion>
   )
 }
