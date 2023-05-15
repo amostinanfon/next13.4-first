@@ -7,7 +7,7 @@ export const metadata = {
 }
 
 
-const layout = ({children}) => {
+const Rootlayout = ({children}) => {
   return (
     <html>
         <body lang='en '>
@@ -21,4 +21,4 @@ const layout = ({children}) => {
   )
 }
 
-export default layout
+export default Rootlayout;
