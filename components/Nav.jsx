@@ -89,6 +89,7 @@ const Nav = () => {
                                 alt="profile"
                                 onClick={() => {
                                     setToggleDropdown((prev) =>!prev);
+                                    console.log(1);
                                 }}
                             />
                             {toggleDropdown && (
